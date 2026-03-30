@@ -1,0 +1,10 @@
+.block {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+.contener-1 {
+  background-color: aquamarine;
+}
+.contener-2 {
+  background-color: rgb(15, 22, 20);
+}

@@ -1,0 +1,137 @@
+* body {
+  background-color: rgb(114, 179, 228);
+}
+.block {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px 25px 50px 25px;
+  max-width: 1200px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(80, 91, 109);
+  padding: 0;
+}
+
+.titre-logo {
+  display: flex;
+  background-color: rgb(64, 75, 95);
+  align-items: center;
+  padding: 0;
+  width: max-content;
+}
+
+h1 {
+  width: max-content;
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(1em, 4vw, 4em);
+  margin: 0;
+  color: rgba(240, 248, 255, 0.822);
+  padding-left: 3px;
+}
+
+.logo-tec-dev {
+  width: clamp(25px, 4vw, 50px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  height: 100%;
+  padding-right: 5px;
+}
+
+.nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  transition: 0.15s all ease;
+}
+
+.nav-icon:hover {
+  border-bottom: 4px rgba(240, 248, 255, 0.822) double;
+  /* border-right: 4px rgba(240, 248, 255, 0.822) double; */
+  padding: 0px 5px 3px 0px;
+  margin: 0;
+}
+
+.nav-icon img {
+  width: clamp(10px, 4vw, 20px);
+}
+
+nav a {
+  font-size: clamp(10px, 3vw, 18px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: rgba(240, 248, 255, 0.822);
+  padding-left: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+main {
+  display: flex;
+  margin-top: 70px;
+}
+
+.descrip-text {
+  width: 50%;
+  padding-left: clamp(50px, 4vw, 100px);
+  background-color: rgb(224, 238, 249);
+  font-size: 1em;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.descrip-img {
+  width: 50%;
+}
+
+.para-1 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.82);
+}
+.spn {
+  color: rgb(14, 47, 108);
+  font-family: "Ribeye Marrow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.para-2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px;
+  display: inline;
+  color: aliceblue;
+  background-color: rgba(14, 47, 108, 0.858);
+}
+.para-3 {
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.82);
+}
+.descrip-text a {
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 25px;
+  background-color: rgba(14, 47, 108, 0.858);
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+}
